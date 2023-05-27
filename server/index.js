@@ -18,4 +18,3 @@ app.get("/", (req, res) => {
 
 app.listen(8080, () => console.log("Server has started on port 8080"));
 
-console.log(process.env.OPENAI_API_KEY);
